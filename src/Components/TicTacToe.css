@@ -1,0 +1,44 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tile {
+    display: inline-block;
+    font-size: 96px;
+    margin: 0px 0px;
+    width: 140px;
+    height: 140px;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+}
+
+.tile-left {
+    border-right: 1px solid #ccc;
+}
+.tile-right {
+    border-left: 1px solid #ccc;
+}
+.tile-top {
+    border-bottom: 1px solid #ccc;
+}
+.tile-bottom {
+    border-top: 1px solid #ccc;
+}
+
+
+
+.tile:hover {
+    cursor: pointer;
+}
+
+.win-section h2:first-child {
+    float: left;
+}
+
+.win-section h2:last-child {
+    float: right;
+}
